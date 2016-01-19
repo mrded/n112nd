@@ -1,0 +1,24 @@
+uuid: c4da8464-7a84-4bd1-a007-7aa18b5a152c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_flat
+  module:
+    - user
+id: user.user.field_flat
+field_name: field_flat
+entity_type: user
+bundle: user
+label: 'Flat Number'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

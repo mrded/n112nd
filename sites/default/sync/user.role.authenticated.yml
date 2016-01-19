@@ -1,0 +1,24 @@
+uuid: 7a1ab457-be2e-4088-b509-9cbea2f1dcab
+langcode: en
+status: true
+dependencies: {  }
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'
+  - 'use text format basic_html'
+  - 'access comments'
+  - 'post comments'
+  - 'skip comment approval'
+  - 'access site-wide contact form'
+  - 'access shortcuts'
+  - 'search content'
+  - 'create neighbor content'
+  - 'create issue content'
+  - 'delete own issue content'
+  - 'edit own issue content'
+  - 'create news content'
+  - 'delete own news content'
+  - 'edit own news content'

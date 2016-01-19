@@ -1,0 +1,12 @@
+uuid: 4cb73356-1158-41eb-8f45-692b58da6332
+name: 'N11 2ND'
+mail: dmitry@demenchuk.me
+slogan: 'Alder Court'
+page:
+  403: ''
+  404: ''
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en

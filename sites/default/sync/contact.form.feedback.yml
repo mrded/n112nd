@@ -1,0 +1,10 @@
+uuid: 0db196e2-8ad4-42c7-9409-093bf03ab379
+langcode: en
+status: true
+dependencies: {  }
+id: feedback
+label: 'Website feedback'
+recipients:
+  - dmitry@demenchuk.me
+reply: ''
+weight: 0

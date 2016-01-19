@@ -1,0 +1,14 @@
+uuid: 431f8d53-bb2d-48c5-804b-75f85db573e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.moderator
+  module:
+    - user
+id: user_remove_role_action.moderator
+label: 'Remove the Moderator role from the selected users'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: moderator

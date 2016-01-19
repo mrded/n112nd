@@ -1,0 +1,31 @@
+uuid: f2530745-f992-4b34-8607-7b0c6b73cf2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.user.compact
+    - field.field.user.user.field_first_name
+    - field.field.user.user.field_flat
+    - field.field.user.user.field_last_name
+    - field.field.user.user.user_picture
+  module:
+    - image
+    - user
+id: user.user.compact
+targetEntityType: user
+bundle: user
+mode: compact
+content:
+  user_picture:
+    type: image
+    weight: 0
+    settings:
+      image_style: thumbnail
+      image_link: content
+    third_party_settings: {  }
+    label: hidden
+hidden:
+  field_first_name: true
+  field_flat: true
+  field_last_name: true
+  member_for: true

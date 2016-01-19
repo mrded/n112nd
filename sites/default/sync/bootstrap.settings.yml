@@ -1,0 +1,17 @@
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: ''
+  url: 'http://n112nd.co.uk/themes/bootstrap/favicon.ico'
+  use_default: true
+logo:
+  path: 'public://logo.png'
+  url: 'http://n112nd.co.uk/themes/bootstrap/logo.svg'
+  use_default: false
+schema: '8000'
+features:
+  comment_user_picture: false
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: false
+  logo: true
+cdn_jsdelivr_version: 3.3.6

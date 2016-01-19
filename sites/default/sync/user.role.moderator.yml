@@ -1,0 +1,33 @@
+uuid: 5fe40b61-68b5-45fd-8320-3206fb1aa877
+langcode: en
+status: true
+dependencies: {  }
+id: moderator
+label: Moderator
+weight: 3
+is_admin: null
+permissions:
+  - 'edit any page content'
+  - 'edit own page content'
+  - 'revert page revisions'
+  - 'view page revisions'
+  - 'create news content'
+  - 'delete own news content'
+  - 'edit any news content'
+  - 'edit own news content'
+  - 'revert news revisions'
+  - 'view news revisions'
+  - 'delete any issue content'
+  - 'delete issue revisions'
+  - 'edit any issue content'
+  - 'revert issue revisions'
+  - 'view issue revisions'
+  - 'delete any news content'
+  - 'delete news revisions'
+  - 'view all revisions'
+  - 'view own unpublished content'
+  - 'edit any article content'
+  - 'edit own article content'
+  - 'revert article revisions'
+  - 'view article revisions'
+  - 'use text format full_html'
